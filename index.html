@@ -12,37 +12,46 @@
 <body>
     <div class="mobile-container">
         <header>
-            <input type="text" name="" id="">
+            <input type="text" name="" id="search-term">
             <button id="search"><i class="fas fa-search"></i></button>
         </header>
         <div class="fav-container">
             <h3>Favorite Meals</h3>
-            <ul class="fav-meals">
-                <li><img src="https:\/\/www.themealdb.com\/images\/media\/meals\/wyrqqq1468233628.jpg" alt=""><span>Bakewell</span></li>
-                <li><img src="https:\/\/www.themealdb.com\/images\/media\/meals\/xqwwpy1483908697.jpg" alt=""><span>Pudding</span></li>
-                <li><img src="https:\/\/www.themealdb.com\/images\/media\/meals\/xqwwpy1483908697.jpg" alt=""><span>Pudding</span></li>
-                <li><img src="https:\/\/www.themealdb.com\/images\/media\/meals\/xqwwpy1483908697.jpg" alt=""><span>Pudding</span></li>
-                <li><img src="https:\/\/www.themealdb.com\/images\/media\/meals\/xqwwpy1483908697.jpg" alt=""><span>Pudding</span></li>
-                <li><img src="https:\/\/www.themealdb.com\/images\/media\/meals\/xqwwpy1483908697.jpg" alt=""><span>Pudding</span></li>
-                <li><img src="https:\/\/www.themealdb.com\/images\/media\/meals\/xqwwpy1483908697.jpg" alt=""><span>Pudding</span></li>
-                <li><img src="https:\/\/www.themealdb.com\/images\/media\/meals\/vvpprx1487325699.jpg" alt=""><span>Beef</span></li>
+            <ul class="fav-meals" id="fav-meals">
+               <!--
+                   <li><img src="https:\/\/www.themealdb.com\/images\/media\/meals\/wyrqqq1468233628.jpg" alt=""><span>Bakewell</span></li>
+                -->
             </ul>
         </div>
-        <div class="meals">
+        <div class="meals" id="meals">
             
-            <div class="meal">
-                
-                <div class="meal-header">
-                    <span class="random">Random Recipe</span>
-                    <img src="https://www.themealdb.com/images/media/meals/lpd4wy1614347943.jpg" alt="">
+        </div>
+
+        
+    </div>
+
+    <div class="popup-container hidden" id="meal-popup">
+        <div class="popup">
+            <button class="close-popup" id="close-popup">
+                <i class="fas fa-window-close"></i>
+            </button>
+
+            <div class="meal-info" id="meal-info">
+                <div>
+                    <h1>Meal Title</h1>
+                    <img src="https://www.themealdb.com/images/media/meals/stpuws1511191310.jpg" alt="">
                 </div>
-                <div class="meal-body">
-                    <h4>Veggie Veggies</h4>
-                    <button class="fav-btn">
-                        <i class="fas fa-heart fav-btn"></i>
-                    </button>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quasi iure facere eveniet sapiente cumque doloribus maxime vero soluta aperiam nam, iusto est, magni dignissimos harum eligendi repellat libero tempora!</p>
+                    <ul>
+                        <li>Ing 1 / measure</li>
+                        <li>Ing 2 / measure</li>
+                        <li>Ing 3 / measure </li>
+                    </ul>
                 </div>
             </div>
+
+            
         </div>
     </div>
 </body>
