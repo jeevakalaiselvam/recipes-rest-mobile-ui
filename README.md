@@ -2,5 +2,5 @@
 ## Using plain old Javascript
 
 # Screens
-![Screen1](screen/screen1.png)
+![Screen1](screens/screen1.png)
 ![Screen2](screens/screen2.png)
