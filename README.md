@@ -2,7 +2,7 @@
 ## Using plain old Javascript
 
 # Live vesion
-[Link](https://jeevakalaiselvam.github.io/recipes-rest-mobile-ui/)
+[Click this link](https://jeevakalaiselvam.github.io/recipes-rest-mobile-ui/)
 
 
 # Screens
