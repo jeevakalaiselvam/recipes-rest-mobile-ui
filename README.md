@@ -1,7 +1,7 @@
 # A Simple Recipes application
 ## Using plain old Javascript
 
-#Live vesion
+# Live vesion
 [Link](https://jeevakalaiselvam.github.io/recipes-rest-mobile-ui/)
 
 
